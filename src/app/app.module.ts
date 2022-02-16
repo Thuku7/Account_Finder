@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ErrorComponent } from './error/error.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ErrorComponent } from './error/error.component';
     UserReposComponent,
     SearchComponent,
     NavbarComponent,
-    ErrorComponent
+    ErrorComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
