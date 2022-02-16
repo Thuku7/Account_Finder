@@ -1,0 +1,29 @@
+<div>
+  <div id='container'>
+    <div class="bar">
+
+    </div>
+    <div class="search-bar">
+        <form class="form-inline" (submit)="searchUser(userQuery)">
+            <label class="sr-only" for="inlineFormInputName2">Name</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="userQuery" placeholder="John Doe" [(ngModel)]="userQuery" name="userQuery" required>   
+
+            <button type="submit" class="btn btn-primary mb-2">Search</button>
+          </form>
+    </div>       
+</div>
+
+<div class="container info" *ngIf='showTab'>
+  <div class="user-info row container-fluid">
+    <div class="col ">
+      <app-user-profile [userProfile]="userProfile"></app-user-profile>
+    </div>
+  </div>  
+
+  <div class="user-repos row container-fluid">
+    <div class="col ">
+      <app-user-repos [userRepositories]="userRepositories"></app-user-repos>
+    </div>
+  </div>  
+</div>   
+</div>
