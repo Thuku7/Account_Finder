@@ -13,6 +13,7 @@ import { ErrorComponent } from './error/error.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
 import { DatecountPipe } from './datecount.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DatecountPipe } from './datecount.pipe';
     ErrorComponent,
     AboutUsComponent,
     HomeComponent,
-    DatecountPipe
+    DatecountPipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
