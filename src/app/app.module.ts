@@ -12,6 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ErrorComponent } from './error/error.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
+import { DatecountPipe } from './datecount.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     ErrorComponent,
     AboutUsComponent,
-    HomeComponent
+    HomeComponent,
+    DatecountPipe
   ],
   imports: [
     BrowserModule,
