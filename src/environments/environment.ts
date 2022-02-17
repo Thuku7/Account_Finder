@@ -6,9 +6,9 @@ export const environment = {
   production: false,
 
   apiUrl:"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",
-  clientId: '8864018f0f4565e186eb',
-  clientSecret: 'c08f9cac2efd2256c29b5cdd882f00285376a747',
-  token:"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",
+  // clientId: '8864018f0f4565e186eb',
+  // clientSecret: 'c08f9cac2efd2256c29b5cdd882f00285376a747',
+  // token:"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",
   
 
 };
