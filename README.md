@@ -5,7 +5,7 @@ Account_Finder is a web application used for searching both github user and thei
 
 Technologies Used
 
-- HTMl
+- HTML
 - Bootstrap
 - Typescript
 - CSS
